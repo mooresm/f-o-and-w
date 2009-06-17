@@ -1,3 +1,4 @@
+#summary installing downloaded PCGen jar file into local Maven2 repository
 #labels Phase-Implementation
 {{{
 mvn install:install-file -DgroupId=net.sourceforge.pcgen -DartifactId=pcgen -Dversion=5.16.0 -Dpackaging=jar -Dfile=pcgen.jar
