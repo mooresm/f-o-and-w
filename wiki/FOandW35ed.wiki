@@ -28,6 +28,7 @@ Insert each character at random points in the random maze. The game ends when th
  # if the character is the only individual left alive, the game ends.
  # if the character is in an adjacent square to the exit, the game ends.
  # moves one square to the left, right or straight ahead (depending on whether there are passageways or walls in those directions) or turns around (if they have arrived at a dead end) 
+   * if there are only two possible directions, the character moves away from the square that it occupied in the previous round (ie. avoid backtracking)
  # attacks an adjacent character (what about monsters? traps?)
 
 A more sophisticated game:
