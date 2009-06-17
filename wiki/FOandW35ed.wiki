@@ -1,25 +1,7 @@
 #summary FO&W 3.5ed
 #labels Phase-Requirements
 
-existing FO&W 2 code defines the minimum functionality for a useful implementation:
-{{{
-public interface Individual
-{
-  String name;
-  int initiative;
-  Weapon wpn;
-  int hp;
-  int ac;
-}
-
-public interface Weapon
-{
-  int toHitModifier;
-  int numDie;
-  int dieSize;
-  int damageModifier;
-}
-}}}
+existing FO&W 2 code defines the minimum functionality for a useful implementation.<br>
 simplest idea: read in two PCGen characters and have them fight to the death, toe to toe
 
 Random Maze Generator:
