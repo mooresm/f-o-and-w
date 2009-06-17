@@ -1,5 +1,19 @@
 #summary FO&W 3.5ed
 #labels Phase-Requirements
+
+existing FO&W 2 code defines the minimum functionality for a useful implementation:
+{{{
+public interface Individual
+{
+  String name;
+  int initiative;
+  Weapon wpn;
+  int hp;
+  int ac;
+}
+}}}
+simplest idea: read in two PCGen characters and have them fight to the death, toe to toe
+
 Random Maze Generator:
 http://www.charm.net/~shack/java/maze.html
 
@@ -26,6 +40,11 @@ A more sophisticated game:
  populate the maze with random monsters and traps (and other dungeon features, eg. difficult terrain) according to the average party level
   * new monsters might wander in from outside
 
+Usable by DMs as a mass combat simulator
+ * define 2 (or more?) factions
+ * paint your terrain
+ * let it rip!
+
 import PCGen characters<br>
 http://www.pcgen-test.org/wiki/index.php?title=Building_PCGen <br>
 http://www.pcgen-test.org/wiki/index.php?title=MAVEN
@@ -45,6 +64,17 @@ diplomacy, intimidation
 
 save/load maze data file (which includes the inhabitants of the maze) <br>
 export maze inhabitant as a PCGen character
+
+web server provides a low-key way to check on the progress of your digital persona
+ * customizable CSS to make it look like you're reading something work-related
+ * subscribe to event notifications via twitter, email or IM
+   * level-up, negative hit points, 50% hits, character death, ...
+ * hosted as a FaceBook/MySpace application
+
+memory requirements & CPU
+ * can tune the time dilation factor to reduce CPU usage
+ * also depends on realtime display; frequency of webpage refresh
+blow-by-blow logging of every move (log4j DEBUG)
 
 AI:
  * select which weapon/feat/spell to use each round, whether to power attack, etc.
