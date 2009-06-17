@@ -11,6 +11,14 @@ public interface Individual
   int hp;
   int ac;
 }
+
+public interface Weapon
+{
+  int toHitModifier;
+  int numDie;
+  int dieSize;
+  int damageModifier;
+}
 }}}
 simplest idea: read in two PCGen characters and have them fight to the death, toe to toe
 
