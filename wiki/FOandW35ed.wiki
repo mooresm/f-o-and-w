@@ -46,6 +46,7 @@ Usable by DMs as a mass combat simulator
  * define 2 (or more?) factions
  * paint your terrain
  * let it rip!
+   * optional interactive mode?
 
 import PCGen characters<br>
 http://www.pcgen-test.org/wiki/index.php?title=Building_PCGen <br>
