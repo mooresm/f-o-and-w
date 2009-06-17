@@ -11,39 +11,39 @@ http://en.wikipedia.org/wiki/Maze_generation_algorithm
 To begin with, assume that each room of the maze is a 5ft square and that more than one occupant cannot occupy the same square simultaneously
 
 Insert each character at random points in the random maze. The game ends when the first person reaches the exit. Each turn, each character either: 
- a) if the character is in an adjacent square to the exit, the game ends.
- b) moves one square to the left, right or straight ahead (depending on whether there are passageways or walls in those directions) or turns around (if they have arrived at a dead end) 
- c) attacks an adjacent character (what about monsters? traps?)
+ # if the character is in an adjacent square to the exit, the game ends.
+ # moves one square to the left, right or straight ahead (depending on whether there are passageways or walls in those directions) or turns around (if they have arrived at a dead end) 
+ # attacks an adjacent character (what about monsters? traps?)
 
 A more sophisticated game:
-movement rate (30ft per round, or double move, 5ft step)
-time dilation
- * from realtime (6sec/round) to fast forward (0 delay)
-torchlight, lanterns or magic improve visibility
-AoO, tumble
-party of 4 characters occupies a 10ft square (each room in the random maze is 10ft x 10ft, with doorways 5ft wide...)
- * configurable marching order, eg. mage in the middle, fighters on the front line, rogue scouting ahead, etc.
-populate the maze with random monsters and traps (and other dungeon features, eg. difficult terrain) according to the average party level
- * new monsters might wander in from outside
+ movement rate (30ft per round, or double move, 5ft step)<br>
+ time dilation
+  * from realtime (6sec/round) to fast forward (0 delay)
+ torchlight, lanterns or magic improve visibility<br>
+ AoO, tumble<br>
+ party of 4 characters occupies a 10ft square (each room in the random maze is 10ft x 10ft, with doorways 5ft wide...)
+  * configurable marching order, eg. mage in the middle, fighters on the front line, rogue   scouting ahead, etc.
+ populate the maze with random monsters and traps (and other dungeon features, eg. difficult terrain) according to the average party level
+  * new monsters might wander in from outside
 
-import PCGen characters
-http://www.pcgen-test.org/wiki/index.php?title=Building_PCGen
+import PCGen characters<br>
+http://www.pcgen-test.org/wiki/index.php?title=Building_PCGen <br>
 http://www.pcgen-test.org/wiki/index.php?title=MAVEN
  * specify location of PCGen jar file
  * specify location of LST sources, as well as which sources to load into memory
 
 GemRB Game Engine (open source re-implementation of BioWare's Infinity engine, 1998-2002)
  * 2nd edition D&D
-http://linux.prinas.si/gemrb/doku.php
-https://sourceforge.net/project/showfiles.php?group_id=10122
+http://linux.prinas.si/gemrb/doku.php <br>
+https://sourceforge.net/project/showfiles.php?group_id=10122 <br>
 http://www.moddb.com/mods/gemrb-the-infinity-engine-clone
 
 support for feats and spellcasting (incl. arcane spell failure)
  * 8h rest to recover spells
-hide, move silently
+hide, move silently <br>
 diplomacy, intimidation
 
-save/load maze data file (which includes the inhabitants of the maze)
+save/load maze data file (which includes the inhabitants of the maze) <br>
 export maze inhabitant as a PCGen character
 
 AI:
