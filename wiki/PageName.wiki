@@ -25,12 +25,19 @@ public class DiceBox
   int roll()
 }
 
-public class CriticalD20Box extends DiceBox
+public class D20Box extends DiceBox
+{
+  public D20Box(int modifier)
+
+  boolean wasNatural20()
+
+  boolean wasNatural1()
+}
+
+public class CriticalD20Box extends D20Box
 {
   public CriticalDiceBox(int modifier, int threat)
 
-  int roll()
-
-  boolean wasRollThreat()
+  boolean wasThreat()
 }
 }}}
