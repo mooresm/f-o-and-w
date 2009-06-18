@@ -13,8 +13,9 @@ public interface Individual
 
 public interface Weapon
 {
-  DiceBox toHit;
+  CriticalDiceBox toHit;
   DiceBox damage;
+  int threat;
 }
 
 // this is the class that calls Random and returns the result
@@ -23,5 +24,14 @@ public class DiceBox
   public DiceBox(int numDie, int dieSize, int modifier)
 
   int roll()
+}
+
+public class CriticalDiceBox extends DiceBox
+{
+  public CriticalDiceBox(int modifier, int threat)
+
+  int roll()
+
+  boolean wasRollThreat()
 }
 }}}
