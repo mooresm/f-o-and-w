@@ -15,7 +15,6 @@ public interface Weapon
 {
   CriticalDiceBox toHit;
   DiceBox damage;
-  int threat;
 }
 
 // this is the class that calls Random and returns the result
