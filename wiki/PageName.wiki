@@ -1,0 +1,27 @@
+#labels Phase-Design
+The existing 2nd edition code defines 
+
+{{{
+public interface Individual
+{
+  String name;
+  int initiative;
+  Weapon wpn;
+  int hp;
+  int ac, touchAC, flatAC;
+}
+
+public interface Weapon
+{
+  DiceBox toHit;
+  DiceBox damage;
+}
+
+// this is the class that calls Random and returns the result
+public class DiceBox
+{
+  public DiceBox(int numDie, int dieSize, int modifier)
+
+  int roll()
+}
+}}}
