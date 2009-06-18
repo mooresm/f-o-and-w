@@ -9,11 +9,12 @@ public interface Individual
   Weapon wpn;
   int hp;
   int ac, touchAC, flatAC;
+  D20Box reflex, fortitude, will;
 }
 
 public interface Weapon
 {
-  CriticalDiceBox toHit;
+  CriticalD20Box toHit;
   DiceBox damage;
 }
 
