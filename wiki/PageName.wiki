@@ -25,7 +25,7 @@ public class DiceBox
   int roll()
 }
 
-public class CriticalDiceBox extends DiceBox
+public class CriticalD20Box extends DiceBox
 {
   public CriticalDiceBox(int modifier, int threat)
 
