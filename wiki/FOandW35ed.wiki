@@ -7,6 +7,8 @@ simplest idea: read in two PCGen characters and have them fight to the death, to
 Random Maze Generator:
 http://www.charm.net/~shack/java/maze.html
 
+http://www.bin.sh/gaming/tools/dungeon.cgi
+
 http://en.wikipedia.org/wiki/Maze_generation_algorithm
  * Depth-First Search
  * Kruskal's algorithm
