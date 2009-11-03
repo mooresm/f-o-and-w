@@ -1,6 +1,7 @@
 #labels Featured,Phase-Implementation
   * [http://subversion.tigris.org/ SubVersion] (SVN)
   * [http://maven.apache.org/ Maven 2] (MVN)
+    * Configuring a local [Maven2] repository with PCGen.jar
   * [http://pcgen.sourceforge.net PCGen]
   * Integrated Development Environment (IDE)
     * [http://www.netbeans.org/ NetBeans]
