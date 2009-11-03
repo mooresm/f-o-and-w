@@ -5,7 +5,7 @@ The existing 2nd edition code defines
 public interface Individual
 {
   String name;
-  int initiative;
+  D20Box initiative;
   Weapon wpn;
   int hp;
   int ac, touchAC, flatAC;
