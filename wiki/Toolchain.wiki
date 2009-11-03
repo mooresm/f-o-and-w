@@ -1,6 +1,6 @@
-* SubVersion (SVN)
-* Maven (MVN)
-* PCGen
-* Integrated Development Environment (IDE)
-** NetBeans
-** Eclipse
+  * [http://subversion.tigris.org/ SubVersion] (SVN)
+  * [http://maven.apache.org/ Maven 2] (MVN)
+  * [http://pcgen.sourceforge.net PCGen]
+  * Integrated Development Environment (IDE)
+    * [http://www.netbeans.org/ NetBeans]
+    * [http://www.eclipse.org/ Eclipse]
