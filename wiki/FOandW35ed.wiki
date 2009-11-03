@@ -23,7 +23,7 @@ Insert each character at random points in the random maze. The game ends when th
    * if there are only two possible directions, the character moves away from the square that it occupied in the previous round (ie. avoid backtracking)
  # attacks an adjacent character (what about monsters? traps?)
 
-A more sophisticated game:
+A more sophisticated game ([http://www.d20srd.org/ RSRD]):
  movement rate (30ft per round, or double move, 5ft step)<br>
  time dilation
   * from realtime (6sec/round) to fast forward (0 delay)
