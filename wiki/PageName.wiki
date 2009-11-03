@@ -7,7 +7,7 @@ public interface Individual
   String name;
   D20Box initiative;
   Weapon wpn;
-  int hp;
+  int maxHP, currentHP;
   int ac, touchAC, flatAC;
   D20Box reflex, fortitude, will;
 }
