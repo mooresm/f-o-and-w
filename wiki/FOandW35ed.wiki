@@ -4,6 +4,10 @@
 [PageName existing FO&W 2 code] defines the minimum functionality for a useful implementation.<br>
 simplest idea: read in two PCGen characters and have them fight to the death, toe to toe
 
+===Random Dungeons===
+
+An idea that was used in Diablo and Elder Scrolls: Daggerfall
+
 Random Maze Generator:
 http://www.charm.net/~shack/java/maze.html
 
