@@ -6,6 +6,7 @@ public interface Individual
 {
   String name;
   D20Box initiative;
+  int currentInit;
   Weapon wpn;
   int maxHP, currentHP;
   int ac, touchAC, flatAC;
