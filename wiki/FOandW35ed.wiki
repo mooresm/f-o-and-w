@@ -3,13 +3,29 @@
 
 [PageName existing FO&W 2 code] defines the minimum functionality for a useful implementation.<br>
 simplest idea: read in two PCGen characters and have them fight to the death, toe to toe
- * display combat statistics like the PCGen DMtools combat tracker
+
+ # read stats from file
+  * hard-coded file format
+  * PCGen `*`.pcg (3._x_)
+  * Character Generator (4th)
+ # display to user
+  * eg. PCGen DMtools encounter tracker GUI
+ # roll initiative
+ # resolve combat rounds
+  # are both opponents still conscious?
+  # in initiative order:
+    # roll to-hit
+    # if to-hit >= AC, roll damage
+    # subtract hit points
 
 ===Random Terrain===
 Populate each 5ft square according to random probabilities in chapter 3 of the DMG 3.5: "Wilderness Adventures"
  * random encounter distance
  * forest, desert, mountain, ...
  * aquatic or aerial combat: in 3D
+
+Random wilderness encounters (table 3-25)
+ * [http://monsterfinder.dndrunde.de/ D&D monster finder]
 
 ===Random Dungeons===
 
@@ -50,6 +66,7 @@ Usable by DMs as a mass combat simulator
  * paint your terrain
  * let it rip!
    * optional interactive mode?
+   * scriptable AI?
 
 import PCGen characters<br>
 http://www.pcgen-test.org/wiki/index.php?title=Building_PCGen <br>
@@ -84,6 +101,13 @@ blow-by-blow logging of every move (log4j DEBUG)
 
 AI:
  * select which weapon/feat/spell to use each round, whether to power attack, etc.
+  * Bayesian prior expectation of attack effectiveness, updated after each combat round
+  * statistical similarity to other monsters previously encountered
+    * tactics vs. humanoid (goblin) spellcaster, or humanoid (orc) archer
+    * AI randomly selects different attack option each round, according to probability of doing the most damage
+    * AI should only be as intelligent as the monster! (zombies, vermin, oozes ...)
+  * tactics: goblin horde, undead legion, military units, ...
+  * different preferences for "rogue" types, spellcasters, etc.
  * maze solving algorithm (keeps track of which squares in the maze have already been visited)
  * fight/flight (remember where enemies were last seen?)
  * scout ahead and then run back to the rest of the party when trouble is encountered
