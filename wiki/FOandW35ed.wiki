@@ -3,6 +3,7 @@
 
 [PageName existing FO&W 2 code] defines the minimum functionality for a useful implementation.<br>
 simplest idea: read in two PCGen characters and have them fight to the death, toe to toe
+ * display combat statistics like the PCGen DMtools combat tracker
 
 ===Random Terrain===
 Populate each 5ft square according to random probabilities in chapter 3 of the DMG 3.5: "Wilderness Adventures"
