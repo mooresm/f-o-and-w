@@ -7,7 +7,7 @@ simplest idea: read in two PCGen characters and have them fight to the death, to
  # read stats from file
   * hard-coded file format
   * PCGen `*`.pcg (3._x_)
-  * Character Generator (4th)
+  * Wizards [http://code.google.com/p/cbloader/ Character Builder] (4th)
  # display to user
   * eg. PCGen DMtools encounter tracker GUI
  # roll initiative
