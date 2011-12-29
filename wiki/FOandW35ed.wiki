@@ -40,6 +40,7 @@ http://en.wikipedia.org/wiki/Maze_generation_algorithm
  * Depth-First Search
  * Kruskal's algorithm
  * Prim's algorithm
+http://weblog.jamisbuck.org/2011/2/7/maze-generation-algorithm-recap
 
 To begin with, assume that each room of the maze is a 5ft square and that more than one occupant cannot occupy the same square simultaneously
 
